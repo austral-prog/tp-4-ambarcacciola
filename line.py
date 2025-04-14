@@ -14,8 +14,8 @@ def line():
     Y2= A*X2 + B
 
     print("\nDados los siguientes puntos:")
-    print(f"\tP1 = ({X1}, {Y1})")
-    print(f"\tP2 = ({X2}, {Y2})")
+    print(f"\tP1 ({X1}, {Y1})")
+    print(f"\tP2 ({X2}, {Y2})")
 
     d = ((X1 - X2) ** 2 + (Y1 - Y2) ** 2) ** (1/2)
 
