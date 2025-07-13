@@ -1,12 +1,6 @@
-def leap_year(year):
-    if (year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)):
-        return True
-    else:
-        return False
-
-if __name__ == "__main__":
+def leap_year():
     anio = int(input("Ingrese un año: "))
-    if leap_year(anio):
+    if (anio % 4 == 0 and anio % 100 != 0) or (anio % 400 == 0):
         print(f"El año {anio} es bisiesto")
     else:
         print(f"El año {anio} no es bisiesto")
