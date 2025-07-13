@@ -4,8 +4,9 @@ def leap_year(year):
     else:
         return False
 
-anio = int(input("Ingrese un año: "))
-if leap_year(anio):
-    print(f"El año {anio} es bisiesto")
-else:
-    print(f"El año {anio} no es bisiesto")
+if __name__ == "__main__":
+    anio = int(input("Ingrese un año: "))
+    if leap_year(anio):
+        print(f"El año {anio} es bisiesto")
+    else:
+        print(f"El año {anio} no es bisiesto")
